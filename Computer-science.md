@@ -34,3 +34,6 @@ https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/
 ## python
 
 [how to run many commands in os system](https://stackoverflow.com/questions/20042205/python-call-multiple-commands)
+
+## markdown
+[sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
