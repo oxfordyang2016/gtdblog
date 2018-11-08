@@ -13,8 +13,10 @@ u know this is a goog start
 
 ```
 
-
-
+## hexo 
+[how to install a new theme](http://theme-next.iissnan.com/getting-started.html)
+### theme
+[theme site](https://hexo.io/themes/)
 
 ## git
  ```
