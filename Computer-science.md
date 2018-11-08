@@ -14,3 +14,19 @@ u know this is a goog start
 ```
 
 
+
+
+# git
+ ```
+ git upgrade
+ https://stackoverflow.com/questions/21820715/how-to-install-latest-version-of-git-on-centos-7-x-6-x
+ git pull while not in a git directory
+ https://stackoverflow.com/questions/5083224/git-pull-while-not-in-a-git-directory/5083437
+ ```
+
+
+# golang 
+```
+1.system comand
+https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/
+```
