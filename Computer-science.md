@@ -16,7 +16,7 @@ u know this is a goog start
 
 
 
-# git
+## git
  ```
  git upgrade
  https://stackoverflow.com/questions/21820715/how-to-install-latest-version-of-git-on-centos-7-x-6-x
@@ -25,8 +25,14 @@ u know this is a goog start
  ```
 
 
-# golang 
+## golang 
 ```
 1.system comand
 https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/
+```
+
+## python
+```
+1.how to run many commands in os sytem
+https://stackoverflow.com/questions/20042205/python-call-multiple-commands
 ```
