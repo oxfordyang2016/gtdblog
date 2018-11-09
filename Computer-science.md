@@ -13,6 +13,11 @@ u know this is a goog start
 
 ```
 
+# Theory
+[ai resource](https://github.com/allmachinelearning/MachineLearning)
+
+# tools
+
 ## hexo 
 [how to install a new theme](http://theme-next.iissnan.com/getting-started.html)
 ### theme
