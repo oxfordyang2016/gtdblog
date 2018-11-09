@@ -9,4 +9,7 @@ tags:
 
 # Matrix
 # Probablity
+### regression 
+[r^2 coffients of determination ](https://stattrek.com/statistics/dictionary.aspx?definition=coefficient_of_determination)
+
 # 
