@@ -3,7 +3,9 @@ title: Finance and Assets
 date: 2018-11-08 16:01:49
 tags:
 ---
-![finance](https://github.com/oxfordyang2016/imagesforweb/blob/master/quantitative_finance-71606587_0.jpg)
+<img src="https://github.com/oxfordyang2016/imagesforweb/blob/master/quantitative_finance-71606587_0.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 # cpi - 消费物价指数
 ```
