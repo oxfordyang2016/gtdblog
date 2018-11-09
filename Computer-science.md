@@ -4,6 +4,13 @@ date: 2018-11-08 16:01:49
 tags:
 ---
 
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+
+
 # cs five part
 ```
 i can understand all this part from this month
