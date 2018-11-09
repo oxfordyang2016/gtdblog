@@ -4,7 +4,7 @@ date: 2018-11-08 16:01:49
 tags:
 ---
 ![finance](https://github.com/oxfordyang2016/imagesforweb/blob/master/fin.png)
-
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 # cpi - 消费物价指数
 ```
