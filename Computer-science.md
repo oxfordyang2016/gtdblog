@@ -3,7 +3,7 @@ title: Computer science
 date: 2018-11-08 16:01:49
 tags:
 ---
-![Image of Yaktocat](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwignYTi1cbeAhXRinAKHf3ZBjkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.msoe.edu%2Fabout-msoe%2Fcomputer-science%2F&psig=AOvVaw2bESKw-KiSz7MovTNNg9bQ&ust=1541830877065979)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 
