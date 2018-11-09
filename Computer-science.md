@@ -53,6 +53,7 @@ iav = readcolumns('alldata.xlsx',3)
 from compare import *
 comp = compare(rate,iav)
 trace0 = go.Scatter(
+	###these are two list
     x=comp[1],
     y=comp[0]
 )
