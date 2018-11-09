@@ -29,7 +29,30 @@ u know this is a goog start
 ## golang 
 
 [invoke system comand](https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/)
+### golang code
+```golang
+func Blogupdate (c *gin.Context){
 
+var (
+                cmdOut []byte
+                err    error
+        )
+        cmdName := "git"
+        cmdArgs := []string{"-C","/root/yangming/blog/source/_posts","pull","origin","master"}
+        if cmdOut, err = exec.Command(cmdName, cmdArgs...).Output(); err != nil {
+                fmt.Fprintln(os.Stderr, "There was an error running git rev-parse command: ", err)
+                os.Exit(1)
+        }
+        sha := string(cmdOut)
+        firstSix := sha[:6]
+        fmt.Println("The first six chars of the SHA at HEAD in this repo are", firstSix)
+
+  c.JSON(200, gin.H{
+                        "status": "blog had updated",
+                })
+
+}
+```
 
 ## python
 
