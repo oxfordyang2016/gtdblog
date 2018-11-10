@@ -93,6 +93,7 @@ data = [trace0]
 py.iplot(data, filename = 'basic-line')
 ```
 ### pdf merge code 
+
 ```python
 # use pip install to install this package
 from PyPDF2 import PdfFileMerger
@@ -106,12 +107,8 @@ for pdf in pdfs:
 
 with open('result.pdf', 'wb') as fout:
     merger.write(fout)
-```    
-
-
-
-
-
+   
+```
 
 
 
