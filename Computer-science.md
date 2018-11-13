@@ -12,6 +12,9 @@ u know this is a goog start
 
 ```
 
+# Ios
+[add search bar](https://www.youtube.com/watch?v=wVeX68Iu43E)
+
 # Theory
 [ai resource](https://github.com/allmachinelearning/MachineLearning)
 
