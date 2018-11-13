@@ -73,6 +73,14 @@ var (
 
 ## python
 
+
+
+### return 
+when python function weill return None when there is no anything to return
+
+
+
+
 [how to run many commands in os system](https://stackoverflow.com/questions/20042205/python-call-multiple-commands)
 
 [jupyter check source code](readcolumns.readcolumns('alldata.xlsx',3))

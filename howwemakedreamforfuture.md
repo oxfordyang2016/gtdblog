@@ -7,7 +7,7 @@ tags:
 
 # functions
 
-
+i must set a planner in gtd ios ,it can service to stastics i had how many tasks to finish
 
 
 
