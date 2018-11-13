@@ -33,3 +33,47 @@ price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 2.外汇市场
 3.资金供应量
 4.社会投融资体系
+
+
+
+## Predict
+
+### make a dataset from wind
+#### data pretreatment
+
+
+###  mode select
+1.linear regression
+2.svm
+
+
+
+
+
+### predict mode
+#### scheme0
+using  machine learning tech stack
+#### scheme1
+```python
+#this output is 10 years  Yield to maturity
+def predict(ppi=None,cpi=None,r007 = None):
+	ytm = compute(ppi,cpi,r007)
+    return ytm
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
