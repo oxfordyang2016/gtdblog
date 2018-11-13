@@ -9,7 +9,7 @@ tags:
 
 
 
-## **听力训练计划**
+## *听力训练计划*
 
 ### train resource
 #### six respect
@@ -26,10 +26,6 @@ tags:
 
 
 ## songs listenning
-
-
-
-
 
 ### tv series videos listenning
 1.the game of throne
