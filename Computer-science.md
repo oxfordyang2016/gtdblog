@@ -19,6 +19,16 @@ u know this is a goog start
 
 ## hexo 
 [how to install a new theme](http://theme-next.iissnan.com/getting-started.html)
+#### code of hexo theme change 
+```
+$ cd your-hexo-site
+$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+modify in _yml filetheme: next
+hexo clean
+hexo server
+```
+
+
 ### theme
 [theme site](https://hexo.io/themes/)
 
