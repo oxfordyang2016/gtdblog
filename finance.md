@@ -29,10 +29,16 @@ price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 
 
 ### 主体影响因子
+#### 债券本身
 1.货币市场
 2.外汇市场
-3.资金供应量
+3.存贷款利率资金供应量
 4.社会投融资体系
+
+#### 宏观市场
+
+社会投融资规模
+
 
 
 
@@ -45,11 +51,6 @@ price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 ###  mode select
 1.linear regression
 2.svm
-
-
-
-
-
 ### predict mode
 #### scheme0
 using  machine learning tech stack
