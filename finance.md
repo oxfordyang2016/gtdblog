@@ -28,3 +28,10 @@ how to implement a python dataframe wevan s
 price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 
 ## data pre-dealwithproblem
+
+
+### 主体影响因子
+1.货币市场
+2.外汇市场
+3.资金供应量
+4.社会投融资体系

@@ -27,3 +27,12 @@ tags:
 17.always profit
 18.two minutes principle
 
+
+
+# reference book
+[1.How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4/ref=sr_1_1?s=books&ie=UTF8&qid=1542074241&sr=1-1&keywords=How+to+Fail+at+Almost+Everything+and+Still+Win+Big%3A+Kind+of+the+Story+of+My+Life)
+
+
+
+
+
