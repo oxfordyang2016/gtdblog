@@ -3,8 +3,6 @@ title: Finance and Assets
 date: 2018-11-08 16:01:49
 tags:
 ---
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
 # cpi - 消费物价指数
 ```
 cpi is a tsandard via compute the weight average of some representive  goods for society,to denote the good price
