@@ -39,6 +39,77 @@ tags:
 # 实际进展
 
 1.对目的进行分类，准备语料
+2.使用rasa框架建立机器学习框架
+
+
+##  Prepare your NLU Training Data
+```
+nlu_md = """
+## intent:greet
+- 你好
+- 早上好
+- hello
+- 你好呀
+- 你是谁
+
+## intent:restaurant_search
+- i'm looking for a place to eat
+- I want to grab lunch
+- I am searching for a dinner spot
+- i'm looking for a place in the [north](location) of town
+- show me [chinese](cuisine) restaurants
+- show me a [mexican](cuisine) place in the [centre](location)
+- i am looking for an [indian](cuisine) spot
+- search for restaurants
+- anywhere in the [west](location)
+- anywhere near [18328](location)
+- I am looking for [asian fusion](cuisine) food
+- I am looking a restaurant in [29432](location)
+
+## intent:thankyou
+- thanks!
+- thank you
+- thx
+- thanks very much
+- 谢谢
+
+
+## intent:百科查询
+- 请解释一下搜索引擎竞价
+- 什么是网路目录竞价
+- 什么是
+
+
+## intent:规则查询
+- 请告诉我电商沙盘的规则是什么
+- 请告诉我网络营销规则
+- 请告诉我订单发布的规则
+- 盘面角色的配置规则是什么
+- 如何进行域名营销
+
+# intent:角色询问
+- 网络营销部经理有什么工作
+- 网络运维部经理主要负责什么
+- 谁能做商品采购部经理
+- 客户服务部经理主要是干嘛
+
+
+
+3 intent:策略询问
+- 常见的营销策略是什么
+- 常见的韵味策略是什么
+- 常见的商品策略
+- 配送策略有哪些
+- 客服策略有哪些
+- 请给我提供给我一些财务策略
+
+4 intent:评价
+- 评价规则有哪些
+- 团队kpi
+- 个人KPI
+
+```
+
 
 
 
