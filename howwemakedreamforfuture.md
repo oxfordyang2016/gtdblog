@@ -6,8 +6,9 @@ tags:
 
 
 # Functions
-
-i must set a planner in gtd ios ,it can service to stastics i had how many tasks to finish
+1.basic functions of gtd app
+2.review algorithm
+3.web support
 
 
 # Reference book
