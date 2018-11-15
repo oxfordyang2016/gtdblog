@@ -160,6 +160,45 @@ ALTER TABLE dataset  CHANGE  tenyearsreutrnrate  tenyearsreturnrate float;
 
 
 
+#### [mysql and python](https://opensourceforu.com/2009/05/database-programming-in-python/)
+```python
+#Python and MySQL are a good combination to develop database applications. After starting the MySQL service on Linux, you need to acquire MySQLdb, a Python DB-API for MySQL to perform database operations. You can check whether the MySQLdb module is installed in your system with the following command:
+
+import MySQLdb
+#If this command runs successfully, you can now start writing scripts for your database.
+
+#To write database applications in Python, there are five steps to follow:
+
+#Import the SQL interface with the following command:
+import MySQLdb
+#Establish a connection with the database with the following command:
+conn=MySQLdb.connect(host='localhost',user='root',passwd='')
+#where host is the name of your host machine, followed by the user name and password. In case of the root, there is no need to provide a password.
+
+#Create a cursor for the connection with the following command:
+cursor = conn.cursor()
+#Execute any SQL query using this cursor as shown below—here the outputs in terms of 1L or 2L show a number of rows affected by this query:
+cursor.execute('Create database Library')
+#1L      // 1L Indicates how many rows affected
+
+
+
+cursor.execute('use Library')
+# u need to note string use
+table='create table books(book_accno char(30) primary key, book_name char(50),no_of_copies int(5),price int(5))'
+cursor.execute(table)
+0L
+#Finally, fetch the result set and iterate over this result set. In this step, the user can fetch the result sets as shown below:
+cursor.execute('select * from books')
+2L
+cursor.fetchall()
+(('Py9098', 'Programming With Python', 100L, 50L), ('Py9099', 'Programming With Python', 100L, 50L))
+#In this example, the fetchall() function is used to fetch the result sets.
+```
+
+
+
+
 
 
 
