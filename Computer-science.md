@@ -129,6 +129,51 @@ nginx -t   #to test nginx change effection
 ```
 
  
+## database
+
+### often opeartions
+```
+create database 
+db CREATE DATABASE testdb;
+
+
+create table
+create table if not exists  dataset(date DATE,tenyearsreutrnrate date);
+
+
+
+describe table
+describe tablename;
+
+
+modify table column table
+ALTER TABLE `dataset` MODIFY `tenyearsreutrnrate` float  NOT NULL;
+
+
+
+
+
+
+
+
+Third, you can optionally specify the storage engine for the table in the ENGINE clause. You can use any storage engine such as InnoDB and MyISAM. If you don’t explicitly declare the storage engine, MySQL will use InnoDB by default.
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
 
 
 ## golang 
