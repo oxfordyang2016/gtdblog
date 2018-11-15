@@ -146,8 +146,16 @@ describe table
 describe tablename;
 
 
-modify table column table
+modify table column type:
 ALTER TABLE `dataset` MODIFY `tenyearsreutrnrate` float  NOT NULL;
+
+
+[modify table column name(u need to add type)](https://www.tutorialspoint.com/mysql/mysql-alter-command.htm)
+ALTER TABLE dataset  CHANGE  tenyearsreutrnrate  tenyearsreturnrate float;
+
+
+
+
 
 
 
