@@ -156,8 +156,14 @@ ALTER TABLE `dataset` MODIFY `tenyearsreutrnrate` float  NOT NULL;
 ALTER TABLE dataset  CHANGE  tenyearsreutrnrate  tenyearsreturnrate float;
 
 
+delete a row from mysql
+delete from dataset where date = "2020-08-04"
 
 
+
+
+insert a row
+insert into  dataset (date,tenyearsreturnrate) values ('2020-08-04','0.62')
 
 
 #### [mysql and python](https://opensourceforu.com/2009/05/database-programming-in-python/)
@@ -201,9 +207,28 @@ cursor.fetchall()
 conn.commit()
 ```
 
+#### from python to insert data to mysql
+```python
+import MySQLdb
+db = MySQLdb.connect(host='localhost',user='root',passwd='123456')
+date  = readcolumns('rebuy.xls',0)
+returnrate = readcolumns('rebuy.xls',1)
 
+#make some operations to get correct ans
+newdate = []
+newrate = []
 
-# when u execute commit
+cursor = db.cursor()
+
+for k in newdate:
+    id = newdate.index(k)
+    date = str(newdate[id])
+    rate = str(newrate[id])
+    op = "insert into  dataset (date,tenyearsreturnrate) values (" +"'"+ date+"'"+","+"'"+rate+"'"+");"
+    print(op)
+    cursor.execute(op)
+db.commit()
+```
 
 
 
@@ -502,6 +527,7 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 [manage your enegy](https://hbr.org/2007/10/manage-your-energy-not-your-time?utm_campaign=harvardbiz&utm_source=twitter&utm_medium=social)
 [tech trends](https://whatsthebigdata.com/2017/01/04/a-timeline-of-future-technologies-2019-2055/)
 [tech interview](http://blog.interviewing.io/lessons-from-3000-technical-interviews/)
+
 
 
 
