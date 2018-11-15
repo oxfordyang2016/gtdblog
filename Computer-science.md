@@ -132,7 +132,7 @@ nginx -t   #to test nginx change effection
 ## database
 
 ### often opeartions
-```
+
 create database 
 db CREATE DATABASE testdb;
 
@@ -140,6 +140,8 @@ db CREATE DATABASE testdb;
 create table
 create table if not exists  dataset(date DATE,tenyearsreutrnrate date);
 
+
+Third, you can optionally specify the storage engine for the table in the ENGINE clause. You can use any storage engine such as InnoDB and MyISAM. If you don’t explicitly declare the storage engine, MySQL will use InnoDB by default.
 
 
 describe table
@@ -160,20 +162,6 @@ ALTER TABLE dataset  CHANGE  tenyearsreutrnrate  tenyearsreturnrate float;
 
 
 
-
-
-
-
-Third, you can optionally specify the storage engine for the table in the ENGINE clause. You can use any storage engine such as InnoDB and MyISAM. If you don’t explicitly declare the storage engine, MySQL will use InnoDB by default.
-
-
-
-
-
-
-
-
-```
 
 
 
