@@ -131,6 +131,13 @@ nginx -t   #to test nginx change effection
  
 ## database
 
+### basic knowledge
+主键：
+
+主键是数据表的唯一索引，比如学生表里有学号和姓名，姓名可能有重名的，但学号确是唯一的，你要从学生表中搜索一条纪录如查找一个人，就只能根据学号去查找，这才能找出唯一的一个，这就是主键;如：id int(10) not null primary key auto_increment ；自增长的类型 ；
+
+
+
 ### often opeartions
 
 create database 
@@ -164,6 +171,15 @@ delete from dataset where date = "2020-08-04"
 
 insert a row
 insert into  dataset (date,tenyearsreturnrate) values ('2020-08-04','0.62')
+
+
+add a new columns definition
+ADD COLUMN droo7  float  AFTER tenyearsreturnrate;
+
+
+
+
+
 
 
 #### [mysql and python](https://opensourceforu.com/2009/05/database-programming-in-python/)
