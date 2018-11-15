@@ -252,6 +252,77 @@ my advantage
 
 
 
+# five years
+The plan of Five year
+The project
+0.Stop masturbation
+1.read the psychonology of prostorcation book again
+2.read a book about people action/enroll a lecture
+3.Gift for mother
+4.Get CS/SE master degree in fudan
+5.travel in canas
+6.Read an English computer network monograph
+7.Read jinggang bible again
+8.Grasp git basic
+9.Eating with family
+10.the volume of vocabulary up to 20000
+11.buy a piece of levis's shirt
+12.all Climbing tiger in my hometown
+13.all flowers in my home
+14.Try to inverst in stock ,fund,gold
+15.read dechuanjiakang for the second time
+16.go jiuzaigou
+17.Study a set of english computernetwork course
+18.read an full_english_tech book
+19.give grandfather some fee
+20.become a intern in tech-company
+21.try and digest server frame
+22.full five years english env of studying and working
+23.Digest a set of operating system screencast
+24.read daodejing
+25.Buy a piece of white shirt
+26.Annual income to 300000
+27.finish the art of insight in science and engineering
+28.Buy a gift for grandfather
+29.finish a django app
+30.Master a kind of music instrument
+31.Grasps mysql basic
+32.Develop my first website
+33.Get an IT R & D offer
+34.Read The Little Go Book
+35.experience music concert
+36.experice a drama
+37.experience a ballet
+38.develop a canvas demo
+39.Digest python basic of python core programming
+40.Read an english novel
+41.finish Practices of an Agile Developer
+42.Read The pragmatic thinking and learning
+43.finish math test suit
+44.Read the pragmatic programmer:fromjourneymantomaster
+45.Finish the django book and implement it
+46.Participate in an entrepreneurial activity
+47.Finish front connect with server without refreshing page
+47.Digest a set of opensource technology
+48.Parachute a luxry watch
+49.Get tourist certificate
+50.guide a foreign tour
+51.set a twitter to introduce china
+52.Finish fluent python
+53.Finish the reading of ELon musk
+54.tidy the books i have read
+55.Finish stanford startup course
+56.try to parachute
+57.Read a mind for number
+58.try to finish python kernel course
+59.Finish the reading of the power of habit
+60.Finish the reading of getting things done
+61.Finish the reading of strcuture and interpretation of computer program
+62.Grasp the python youtube-dl open source
+63.Finish python kernel course
+64.Finish the reading of zero to one book
+
+
 
 
 
