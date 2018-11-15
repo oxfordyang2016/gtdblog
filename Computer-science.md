@@ -194,7 +194,17 @@ cursor.execute('select * from books')
 cursor.fetchall()
 (('Py9098', 'Programming With Python', 100L, 50L), ('Py9099', 'Programming With Python', 100L, 50L))
 #In this example, the fetchall() function is used to fetch the result sets.
+
+
+#when u do insert op,u need to commit
+#https://stackoverflow.com/questions/6027271/python-mysql-insert-not-working
+conn.commit()
 ```
+
+
+
+# when u execute commit
+
 
 
 
@@ -467,16 +477,32 @@ server_id=1
  
 
 
-
-
-
-
-
 linux 
 
 https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes
 
 https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
+
+
+
+## source
+[source site](https://archive.org/)
+[paper site](https://arxiv.org/)
+[teach yourself cs](https://news.ycombinator.com/item?id=13862284)
+[teach yourself cs](https://teachyourselfcs.com/)
+[chance](https://bradfieldcs.com/)
+[steve jobs](https://news.ycombinator.com/item?id=3078128)
+[it hare](http://ithare.com/)
+[indie hackers](https://www.indiehackers.com/products)
+[some advice](https://docs.google.com/document/d/1MBpwNLl3AgsKi4Yh4PZ2X30PYy4gV9xK2xgqXKevaVQ/edit#heading=h.r7te9ign1nt1)
+[how to get startup idea](https://news.ycombinator.com/item?id=4806852)
+[how to get startup](http://paulgraham.com/startupideas.html)
+[how to be haapy](https://www.lesswrong.com/posts/ZbgCx2ntD5eu8Cno9/how-to-be-happy)
+[about learn](https://jamesaltucher.com/2010/12/breakdancing-universe/)
+[manage your enegy](https://hbr.org/2007/10/manage-your-energy-not-your-time?utm_campaign=harvardbiz&utm_source=twitter&utm_medium=social)
+[tech trends](https://whatsthebigdata.com/2017/01/04/a-timeline-of-future-technologies-2019-2055/)
+[tech interview](http://blog.interviewing.io/lessons-from-3000-technical-interviews/)
+
 
 
 
