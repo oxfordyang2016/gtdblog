@@ -154,5 +154,19 @@ nlu_md = """
 
 
 
+# 参考资料
+[如何动手做一个机器人](https://github.com/warmheartli/ChatBotCourse)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
