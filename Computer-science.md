@@ -235,30 +235,56 @@ conn.commit()
 
 #### from python to insert data to mysql
 ```python
+
 import MySQLdb
-db = MySQLdb.connect(host='localhost',user='root',passwd='123456')
-date  = readcolumns('rebuy.xls',0)
-returnrate = readcolumns('rebuy.xls',1)
+from readcolumns import *
+day = readcolumns('r007.xls',0)
+r007 = readcolumns('r007.xls',1)
+print day[0:2],day[-2:]
+print r007[0:2],r007[-2:]
+newday = day[1:-2]
+newr007 = r007[1:-2]
+print len(newday) == len(newr007)
+print newday[0:3],newr007[0:3]
+print newday[-3:],newr007[-3:]
 
-#make some operations to get correct ans
-newdate = []
-newrate = []
 
-cursor = db.cursor()
 
-for k in newdate:
-    id = newdate.index(k)
-    date = str(newdate[id])
-    rate = str(newrate[id])
-    op = "insert into  dataset (date,tenyearsreturnrate) values (" +"'"+ date+"'"+","+"'"+rate+"'"+");"
+#Establish a connection with the database with the following command:
+conn=MySQLdb.connect(host='localhost',user='root',passwd='123456')
+#where host is the name of your host machine, followed by the user name and password. In case of the root, there is no need to provide a password.
+
+#Create a cursor for the connection with the following command:
+cursor = conn.cursor()
+cursor.execute("use finance;")
+#Execute any SQL query using this cursor as shown below—here the outputs in terms of 1L or 2L show a number of rows affected by this query:
+import math
+for day in newday:                                                                                                       
+    id = newday.index(day)
+    r007 = newr007[id]
+    if math.isnan(r007):
+        r007 = -1.00
+    op = "update dataset set r007 ="+str(r007) + " where date = '"+str(day)+"';" 
     print(op)
     cursor.execute(op)
-db.commit()
+
+
+
+ conn.commit()   
 ```
 
 
+### [mysql alter performance problem](https://stackoverflow.com/questions/12774709/mysql-very-slow-for-alter-table-query)
+```
+MySQL’s ALTER TABLE performance can become a problem with very large tables. MySQL performs most alterations by making an empty table with the desired new structure, inserting all the data from the old table into the new one, and deleting the old table. This can take a very long time, especially if you’re short on memory and the table is large and has lots of indexes. Many people have experience with ALTER TABLE operations that have taken hours or days to complete.
 
+Anyway if you need to proceed with alter table, maybe the following resources could help you:
 
+https://www.percona.com/doc/percona-toolkit/2.2/pt-online-schema-change.html
+https://github.com/soundcloud/lhm
+https://githubengineering.com/gh-ost-github-s-online-migration-tool-for-mysql/
+
+```
 
 
 
@@ -320,8 +346,10 @@ jupyter run shortcut shift+enter
 [plotly auth method](https://plot.ly/python/getting-started/)
 ```
 jupyter install package u can in anaconda bin directory use pip to install
+method1
 ```
 [anaconda install package](https://github.com/jupyter/notebook/issues/1524)
+method2
 ```
 $ /Users/abc/anaconda/bin/python -m pip install ipykernel
 $ /Users/abc/anaconda/bin/python -m  ipykernel install
