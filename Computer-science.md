@@ -22,7 +22,7 @@ modify in _yml filetheme: next
 hexo clean
 hexo server
 ```
-
+[conda not found](https://stackoverflow.com/questions/49821930/conda-command-not-found-even-though-path-is-exported)
 
 ### ios
 [ios experience](http://www.code4app.com/blog-950206-21313.html)
@@ -38,6 +38,10 @@ hexo server
 [git upgrade](https://stackoverflow.com/questions/21820715/how-to-install-latest-version-of-git-on-centos-7-x-6-x)
 [git pull while not in a different directory](
  https://stackoverflow.com/questions/5083224/git-pull-while-not-in-a-git-directory/5083437)
+
+
+
+
 
 
 
@@ -317,6 +321,31 @@ jupyter run shortcut shift+enter
 ```
 jupyter install package u can in anaconda bin directory use pip to install
 ```
+[anaconda install package](https://github.com/jupyter/notebook/issues/1524)
+```
+$ /Users/abc/anaconda/bin/python -m pip install ipykernel
+$ /Users/abc/anaconda/bin/python -m  ipykernel install
+```
+
+#### conda install mysqldb(https://stackoverflow.com/questions/34140472/how-can-i-use-conda-to-install-mysqldb)
+```
+You could either fall back on pip install:
+
+pip install mysql-python
+or, if there are issues with pip as in your case, use a binstar package like so:
+
+conda install binstar
+binstar search -t conda mysql-python
+and then conda install -c a matching package.
+```
+
+
+
+
+
+
+
+
 
 ### drawing with plotly simple code
 ```python
