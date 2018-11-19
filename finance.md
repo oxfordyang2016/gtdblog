@@ -5,7 +5,7 @@ tags:
 ---
 # cpi - 消费物价指数
 ```
-cpi is a tsandard via compute the weight average of some representive  goods for society,to denote the good price
+cpi is a standard via compute the weight average of some representive  goods for society,to denote the good price
 ```
 
 # PPI - 生产价格指数
@@ -45,16 +45,31 @@ price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 十年期回报率
 #### 输入
 date 日期
-cpi  
-ppi
-gdp   
+cpi  消费物价指数
+ppi  生产价格指数
+gdp  国民生产总值
 r007 银行间回购利率
 spot_rate_exchange 人民币离岸汇率
-
+iav 工业增加值
 
 ## 模型
 #### 假设空间
+#####  mode select
+1.linear regression
+2.svm
 #### 参数空间
+
+
+## 策略
+### 损失函数和风险函数
+
+
+
+
+
+
+
+
 
 
 
@@ -76,9 +91,7 @@ spot_rate_exchange 人民币离岸汇率
 #### data pretreatment
 
 
-###  mode select
-1.linear regression
-2.svm
+
 ### predict mode
 #### scheme0
 using  machine learning tech stack
