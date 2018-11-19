@@ -44,7 +44,13 @@ hexo server
 
 ### ios ui
 [ios ui repository](https://medium.mybridge.co/39-open-source-swift-ui-libraries-for-ios-app-development-da1f8dc61a0f)
+[menu](https://uxplanet.org/16-ios-menu-open-source-ui-animation-components-libraries-swift-obj-c-75b0c3f7dcc8)
+[ios ui repository2](https://uxplanet.org/16-ios-menu-open-source-ui-animation-components-libraries-swift-obj-c-75b0c3f7dcc8)
 
+
+
+
+[machine learning](https://medium.mybridge.co/30-amazing-machine-learning-projects-for-the-past-year-v-2018-b853b8621ac7?source=placement_card_footer_grid---------1-41)
 
 
 
