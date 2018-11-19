@@ -11,6 +11,10 @@ tags:
 3.web support
 
 
+# reviewalgo part
+![reviewalgo](/images/reviewalgo.png)
+
+
 # Reference book
 [1.How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4/ref=sr_1_1?s=books&ie=UTF8&qid=1542074241&sr=1-1&keywords=How+to+Fail+at+Almost+Everything+and+Still+Win+Big%3A+Kind+of+the+Story+of+My+Life)
 [2.principle by ray dalio](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1508243247/ref=sr_1_1_sspa?ie=UTF8&qid=1542074406&sr=8-1-spons&keywords=principle&psc=1)
