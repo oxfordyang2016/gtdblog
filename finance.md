@@ -24,7 +24,6 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 
-## data pre-dealwithproblem
 
 
 ### 主体影响因子
@@ -114,6 +113,11 @@ def predict(ppi=None,cpi=None,r007 = None):
 
 
 
+
+# problems
+## data pre-dealwithproblem
+   缺少的值如何处理
+   该选择什么样的模型
 
 
 
