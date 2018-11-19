@@ -44,7 +44,9 @@ it is used to statistics the goods price when thy was published from relase line
 
 国债10年期利率交叉验证可接受范围[5%]
 
-how to implement a python dataframe wevan s
+
+
+### part theory
 price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
 
 ### 训练集合特征

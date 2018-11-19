@@ -12,9 +12,9 @@ tags:
 
 # tools
 
-## hexo 
-[how to install a new theme](http://theme-next.iissnan.com/getting-started.html)
-#### code of hexo theme change 
+# hexo 
+## [how to install a new theme](http://theme-next.iissnan.com/getting-started.html)
+### code of hexo theme change 
 ```
 $ cd your-hexo-site
 $ git clone https://github.com/iissnan/hexo-theme-next themes/next
@@ -22,6 +22,13 @@ modify in _yml filetheme: next
 hexo clean
 hexo server
 ```
+### [hexo add image](http://jeffa.tech/adding-images-to-a-hexo-post-via-markdown/)
+
+
+
+
+
+
 [conda not found](https://stackoverflow.com/questions/49821930/conda-command-not-found-even-though-path-is-exported)
 
 ### ios
