@@ -44,6 +44,9 @@ it is used to statistics the goods price when thy was published from relase line
 
 国债10年期利率交叉验证可接受范围[5%]
 
+### problem:是否能抽象成分类问题
+
+
 
 
 ### part theory
