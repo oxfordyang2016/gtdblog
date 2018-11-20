@@ -518,6 +518,19 @@ Tableview
 18.UITableView Cell Action (Swift 4 + Xcode 9.0) https://www.youtube.com/watch?v=5js6nwDcedE
 19.tableview cell add icon https://www.youtube.com/watch?v=qSO9oir9JrM
 
+
+# [view relationship](https://www.youtube.com/watch?v=e5nxg5NzLks)
+
+
+### scp command from desktop to aliyun server
+```
+scp -i   ~/Desktop/reviewalgo.png   ~/Downloads/yangming.pem   root@47.100.100.141:~/
+```
+
+
+
+
+
 db
 
  a.sqlite
