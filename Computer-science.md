@@ -608,7 +608,21 @@ binlog-format=row
 
 server_id=1
 
- 
+[拓扑排序](https://blog.csdn.net/lisonglisonglisong/article/details/45543451)
+
+
+[set title of navigation bar](https://stackoverflow.com/questions/6154237/how-to-set-the-title-of-a-navigation-bar-programmatically)
+
+
+ios struct
+[task()] is a list that had in clude a empty instance
+[task]() to indicate the list is a task struct-type,it is a empty list now
+
+
+
+
+
+
 
 
 linux 
@@ -616,6 +630,10 @@ linux
 https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes
 
 https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
+
+
+
+[scroll view sucess example](https://www.youtube.com/watch?v=LhhW3xqhCzg&t=17s)
 
 
 
