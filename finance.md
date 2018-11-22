@@ -24,7 +24,13 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 
+
+
+
+
 # 货币政策
+## 定义
+货币政策（Monetary Policy）是一个国家或是经济体的货币权威机构（多数国家由央行来执行）利用控制货币供应量，来达到影响其他经济活动所采取的措施
 ## 目的
 控制货币供应量
 ## 主要手段
@@ -61,8 +67,26 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 
-### part theory
+# 对冲理论
 price(物价cpi,ppi)*y(经济add rate)= m货币供给*v货币流通速度
+## 价格
+cpi
+ppi
+rpi
+## 经济增长
+gdp
+工业增加值
+## 货币供给
+MI
+社会融资规模当月值
+官方储备资产:外汇储备
+## 货币流通速度
+人民币存款准备金率:大型存款类金融机构(月)
+人民币存款准备金率:中小型存款类金融机构(月)
+
+
+
+
 
 ### 训练集合特征
 #### 输出
