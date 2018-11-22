@@ -63,7 +63,7 @@ hexo server
 
 
 
-## nginx
+# nginx
 ```
 server {
 
@@ -625,7 +625,7 @@ ios struct
 
 
 
-linux 
+# linux 
 
 https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes
 
@@ -637,7 +637,7 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 
 
 
-## source
+# source
 [source site](https://archive.org/)
 [paper site](https://arxiv.org/)
 [teach yourself cs](https://news.ycombinator.com/item?id=13862284)
