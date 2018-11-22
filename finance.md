@@ -53,6 +53,11 @@ wehn ban get money from business or people,the central ask them to prepare some 
 
 
 
+### review
+it seem like that the mearket is about which direction money to go
+
+
+
 ### 主体影响因子
 #### 债券本身
 1.货币市场
