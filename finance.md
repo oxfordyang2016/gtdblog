@@ -24,6 +24,18 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 
+# 货币政策
+## 目的
+控制货币供应量
+## 主要手段
+主要手段包括：调节基础利率、调节商业银行保证金、公开市场操作
+## 分类
+货币政策一般分为：激进的－利率被调节为促进经济增长；中性的－保持经济稳定；从紧的－降低通货膨胀却可能提高失业率
+
+
+
+
+
 
 
 ### 主体影响因子
