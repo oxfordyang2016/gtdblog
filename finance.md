@@ -45,7 +45,7 @@ it is used to statistics the goods price when thy was published from relase line
 在中国，以中国人民银行对国家专业银行和其他金融机构规定的存贷款利率为基准利率。具体而言，一般普通民众把银行一年定期存款利率作为市场基准利率指标，银行则是把隔夜拆借利率作为市场基准利率。根据沟通，这里是央行发布的个人存贷款
 利率，然后各个商业银行根据他们进行调整。
 
-
+#### [央行数据例子](http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/125838/125885/index.html)
 
 ### 主体影响因子
 #### 债券本身
