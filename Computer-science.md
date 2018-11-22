@@ -619,7 +619,8 @@ ios struct
 [task]() to indicate the list is a task struct-type,it is a empty list now
 
 
-
+## mysql restore database
+   mysql -u root -p123456<database_20181122_0303.sql
 
 
 
