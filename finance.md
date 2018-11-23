@@ -4,6 +4,11 @@ date: 2018-11-08 16:01:49
 tags:
 ---
 
+
+# Final.mode
+it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest,time,quantity。from now'view,many things can learns from real estate,and living finance such as(loan,real estate,net loan)to get.all about money,time,interest
+
+
 ## 常见概念
 
 
@@ -36,9 +41,12 @@ it is used to statistics the goods price when thy was published from relase line
 ## 定义
 货币政策（Monetary Policy）是一个国家或是经济体的货币权威机构（多数国家由央行来执行）利用控制货币供应量，来达到影响其他经济活动所采取的措施
 ## 目的
-控制货币供应量
+控制货币供应量,控制钱往需要用钱的一方流动的快慢
+
+
 ## 主要手段
 主要手段包括：调节基础利率、调节商业银行保证金、公开市场操作
+
 ## 分类
 货币政策一般分为：激进的－利率被调节为促进经济增长；中性的－保持经济稳定；从紧的－降低通货膨胀却可能提高失业率
 
@@ -66,8 +74,6 @@ wehn ban get money from business or people,the central ask them to prepare some 
 
 
 
-### review
-it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest。from now'view,many things can learns from real estate,and living finance to get.all about money,time,interest
 
 
 
