@@ -21,6 +21,10 @@ it is used to statistics the goods price when thy was published from relase line
 
 [质押式回购-目前可以理解为当铺模式](https://wiki.mbalib.com/wiki/%E9%93%B6%E8%A1%8C%E9%97%B4%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E5%88%A9%E7%8E%87)
 
+### [质押与抵押](https://baike.baidu.com/item/%E8%B4%A8%E6%8A%BC)
+
+质押与抵押的区别从目前的understand,质押财产占有权已经转移，抵押占有并没有发生转移
+
 
 
 
@@ -51,10 +55,18 @@ it is used to statistics the goods price when thy was published from relase line
 ### [存款准备金率](https://baike.baidu.com/item/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E7%8E%87)
 wehn ban get money from business or people,the central ask them to prepare some part money that can not be used.it can be used to control the market money supply
 
+### [中期借贷便利](https://baike.baidu.com/item/%E4%B8%AD%E6%9C%9F%E5%80%9F%E8%B4%B7%E4%BE%BF%E5%88%A9)
+中期借贷便利（Medium-term Lending Facility，MLF）。于2014年9月由中国人民银行创设。中期借贷便利是中央银行提供中期基础货币的货币政策工具，对象为符合宏观审慎管理要求的商业银行、政策性银行，可通过招标方式开展。发放方式为质押方式，并需提供国债、央行票据、政策性金融债、高等级信用债等优质债券作为合格质押品。
+
+
+
+
+
+
 
 
 ### review
-it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest
+it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest。from now'view,many things can learns from real estate,and living finance to get.
 
 
 
