@@ -48,13 +48,13 @@ it is used to statistics the goods price when thy was published from relase line
 #### [央行数据例子](http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/125838/125885/index.html)
 
 
-### [存款准备净](https://baike.baidu.com/item/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E7%8E%87)
+### [存款准备金率](https://baike.baidu.com/item/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E7%8E%87)
 wehn ban get money from business or people,the central ask them to prepare some part money that can not be used.it can be used to control the market money supply
 
 
 
 ### review
-it seem like that the mearket is about which direction money to go
+it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest
 
 
 

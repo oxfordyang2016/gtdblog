@@ -637,6 +637,23 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 [scroll view sucess example](https://www.youtube.com/watch?v=LhhW3xqhCzg&t=17s)
 
 
+# algorithm
+ [前驱和后继](https://blog.csdn.net/zhaoyunfullmetal/article/details/47903319)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # source
 [source site](https://archive.org/)
