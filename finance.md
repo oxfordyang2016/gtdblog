@@ -9,27 +9,30 @@ tags:
 it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest,time,quantity。from now'view,many things can learns from real estate,and living finance such as(loan,real estate,net loan)to get.all about money,time,interest
 
 
-## 常见概念
+# 常见概念
 
 
-#### cpi - 消费物价指数
+## cpi - 消费物价指数
 ```
 cpi is a standard via compute the weight average of some representive  goods for society,to denote the good price
 ```
 
-#### PPI - 生产价格指数
+## PPI - 生产价格指数
 ```
 it is used to statistics the goods price when thy was published from relase line in industry enterprise
 
 ```
-#### IAV - 工业增加值- all enterprises*(生产的商品price-减去成本)
+## IAV - 工业增加值- all enterprises*(生产的商品price-减去成本)
 
 [质押式回购-目前可以理解为当铺模式](https://wiki.mbalib.com/wiki/%E9%93%B6%E8%A1%8C%E9%97%B4%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E5%88%A9%E7%8E%87)
 
-### [质押与抵押](https://baike.baidu.com/item/%E8%B4%A8%E6%8A%BC)
+## [质押与抵押](https://baike.baidu.com/item/%E8%B4%A8%E6%8A%BC)
 
 质押与抵押的区别从目前的understand,质押财产占有权已经转移，抵押占有并没有发生转移
 
+## [外汇](https://baike.baidu.com/item/%E5%A4%96%E6%B1%87)
+
+包括外国货币、外币存款、外币有价证券（政府公债、国库券、公司债券、股票等)、外币支付凭证（票据、银行存款凭证、邮政储蓄凭证等）
 
 
 
@@ -39,7 +42,7 @@ it is used to statistics the goods price when thy was published from relase line
 
 # 货币政策
 ## 定义
-货币政策（Monetary Policy）是一个国家或是经济体的货币权威机构（多数国家由央行来执行）利用控制货币供应量，来达到影响其他经济活动所采取的措施
+货币政策（Monetary Policy）是一个国家或是经济体的货币权威机构（多数国家由央行来执行）利用控制货币供应量,利率水平（从目前的利率水平来看，并没有相应的货币增发），来达到影响其他经济活动所采取的措施
 ## 目的
 控制货币供应量,控制钱往需要用钱的一方流动的快慢
 
