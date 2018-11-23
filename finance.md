@@ -59,14 +59,15 @@ wehn ban get money from business or people,the central ask them to prepare some 
 中期借贷便利（Medium-term Lending Facility，MLF）。于2014年9月由中国人民银行创设。中期借贷便利是中央银行提供中期基础货币的货币政策工具，对象为符合宏观审慎管理要求的商业银行、政策性银行，可通过招标方式开展。发放方式为质押方式，并需提供国债、央行票据、政策性金融债、高等级信用债等优质债券作为合格质押品。
 
 
-
-
+### [回购交易](https://baike.baidu.com/item/%E5%A4%AE%E8%A1%8C%E5%9B%9E%E8%B4%AD)
+逆回购室向市场上放水，正回购是将市场上的钱转移回来
+逆回购室向市场上放水，正回购是将市场上的钱转移回来
 
 
 
 
 ### review
-it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest。from now'view,many things can learns from real estate,and living finance to get.
+it seem like that the mearket is about which direction money to go.when we talk about money,we need to talk about interest。from now'view,many things can learns from real estate,and living finance to get.all about money,time,interest
 
 
 
