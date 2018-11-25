@@ -253,10 +253,10 @@ wehn ban get money from business or people,the central ask them to prepare some 
 
 
 
+# 量化模型
 
-
-### 主体影响因子
-#### 债券本身
+## 主体影响因子
+### 债券本身
 1.货币市场
 2.外汇市场
 3.存贷款利率资金供应量
