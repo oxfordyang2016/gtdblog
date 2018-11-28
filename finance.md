@@ -36,7 +36,7 @@ it is used to statistics the goods price when thy was published from relase line
 
 ## [票据](https://baike.baidu.com/item/%E7%A5%A8%E6%8D%AE)
 
-
+## [挤兑](https://baike.baidu.com/item/%E9%93%B6%E8%A1%8C%E6%8C%A4%E5%85%91)
 
 
 ## 再贷款
@@ -61,7 +61,6 @@ it is used to statistics the goods price when thy was published from relase line
 人民币汇率形成机制改革
 人民币汇率中间价公告
 人民币汇率中间价图表
-
 
 ### 货币政策执行报告
 货币政策执行报告
@@ -448,8 +447,40 @@ def predict(ppi=None,cpi=None,r007 = None):
 
 
 
+# 房地产价格模型
+## 设计思路
+1.获取以区为单位的均价，以成都地区为例(	青羊，金牛，温江)
+2.获取典型小区的单位均价
+
+## 数据来源
+1.链家
+2.搜房网
+3.房天下
+4.安居客
 
 
+## 核心技术
+使用爬虫获取网页源码，然后解析其中的房价数据
+
+
+## 典型城市确定
+### 一线城市
+北上广深
+### 二线强市
+成都
+杭州
+武汉
+南京
+
+
+### 政策标杆城市
+乌鲁木齐
+三亚
+廊坊
+
+
+### tutorial
+(tu2)[https://blog.csdn.net/zhchs2012/article/details/80053788]
 
 
 

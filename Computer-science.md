@@ -3,6 +3,13 @@ title: Computer science
 date: 2018-11-08 16:01:49
 tags:
 ---
+# basic concepts
+1.同步与异步
+
+
+# alamofire execute function asyn!!!
+
+
 # cs five part
 # Ios
 [add search bar](https://www.youtube.com/watch?v=wVeX68Iu43E)
