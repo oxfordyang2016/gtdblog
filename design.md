@@ -9,6 +9,16 @@ tags:
 以微信作为ID，来保证授权进行，获取对应课程，设计购物车功能
 
 
+# 设计页面
+
+
+
+
+
+
+
+
+
 
 # 基本功能
   收费系统-微信接入
@@ -41,6 +51,16 @@ tags:
 # design
 ![design](/images/design.jpg)
 ![teacher](/images/teacher.jpg)
+=======
+
+
+
+#[小程序申请页面注册](https://mp.weixin.qq.com/wxopen/waregister?action=step1)
+请注册企业类型
+
+
+
+
 
 
 

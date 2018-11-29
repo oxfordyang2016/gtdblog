@@ -531,7 +531,7 @@ Tableview
 
 ### scp command from desktop to aliyun server
 ```
-scp -i   ~/Desktop/reviewalgo.png   ~/Downloads/yangming.pem   root@47.100.100.141:~/
+ sudo scp -i     ~/Downloads/yangming.pem    ~/Desktop/teacher.jpg  root@47.100.100.141:~/ 
 ```
 
 
