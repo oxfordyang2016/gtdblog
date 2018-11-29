@@ -5,7 +5,8 @@ tags:
 ---
 # basic concepts
 1.同步与异步
-
+同步：顺序执行
+异步：同时执行
 
 # alamofire execute function asyn!!!
 
