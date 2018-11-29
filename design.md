@@ -36,3 +36,12 @@ tags:
 # 硬件事宜
 阿里云服务器
 阿里云域名
+
+
+# design
+![design](/images/design.jpg)
+![teacher](/images/teacher.jpg)
+
+
+
+
