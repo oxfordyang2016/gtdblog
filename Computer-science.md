@@ -317,6 +317,34 @@ https://githubengineering.com/gh-ost-github-s-online-migration-tool-for-mysql/
 
 
 
+# ![lan network](https://serverfault.com/questions/229441/how-do-i-access-a-local-web-server-on-my-laptop-from-another-computer)
+
+
+i using ifconfig to show my local ip in same network and using fellowing
+en1 (8):
+  inet address  192.168.0.74
+  netmask       255.255.255.0
+  broadcast     192.168.0.255
+  flags         UP BROADCAST NOTRAILERS RUNNING SIMPLEX MULTICAST
+  mtu           1500
+
+
+
+
+
+
+# allow jupyter was visited[https://stackoverflow.com/questions/39155953/exposing-python-jupyter-on-lan]
+```
+0.generate configure file using jupyter notebook --generate-config
+1.set in configure file and add 
+c.NotebookApp.ip = '0.0.0.0' # listen on all IPs
+c.NotebookApp.token = ''     # disable authentication
+c.NotebookApp.allow_origin = '*' # allow access from anywhere
+c.NotebookApp.disable_check_xsrf = True # allow cross-site requests
+2.jupyter notebook --ip <your_LAN_ip> --port 8888
+```
+
+
 
 
 
