@@ -5,7 +5,8 @@ tags:
 ---
 # basic concepts
 1.同步与异步
-
+同步：顺序执行
+异步：同时执行
 
 # alamofire execute function asyn!!!
 
@@ -531,7 +532,7 @@ Tableview
 
 ### scp command from desktop to aliyun server
 ```
-scp -i   ~/Desktop/reviewalgo.png   ~/Downloads/yangming.pem   root@47.100.100.141:~/
+ sudo scp -i     ~/Downloads/yangming.pem    ~/Desktop/teacher.jpg  root@47.100.100.141:~/ 
 ```
 
 
