@@ -68,6 +68,22 @@ hexo server
 [machine learning](https://medium.mybridge.co/30-amazing-machine-learning-projects-for-the-past-year-v-2018-b853b8621ac7?source=placement_card_footer_grid---------1-41)
 
 
+[numpy array to list](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tolist.html)
+
+# algorithm
+[bianry search tree delete](http://www.algolist.net/Data_structures/Binary_search_tree/Removal)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

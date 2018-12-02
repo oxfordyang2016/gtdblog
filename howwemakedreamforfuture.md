@@ -22,3 +22,18 @@ tags:
 [4.A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU)
 [5.want to start a startup](http://paulgraham.com/startupideas.html)
 
+
+
+# commands
+## user system
+1.user login
+
+
+
+1.gtd -t       get tasks of today
+
+
+
+
+
+

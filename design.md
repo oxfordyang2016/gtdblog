@@ -51,12 +51,27 @@ tags:
 # design
 ![design](/images/design.jpg)
 ![teacher](/images/teacher.jpg)
-=======
-
-
 
 #[小程序申请页面注册](https://mp.weixin.qq.com/wxopen/waregister?action=step1)
 请注册企业类型
+
+
+
+
+
+# 进度事宜
+12.2
+1.使用测试服务器搭建服务器/小程序开发环境
+3.建立代码仓库
+3.测试多媒体服务器
+4.其他事宜
+
+
+
+
+
+
+
 
 
 
