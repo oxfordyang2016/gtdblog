@@ -451,7 +451,7 @@ def predict(ppi=None,cpi=None,r007 = None):
 
 # 黄金交易
 ## 手续费
-## 交易渠道
+## [交易渠道](http://www.cu168.com/tbk/2017111514229.html)
 
 支付宝等支付平台
 银行等平台
@@ -492,6 +492,7 @@ def predict(ppi=None,cpi=None,r007 = None):
 
 ## 拟合目标
 1.债券市场利率
+2.利率的上升斜率
 
 
 ## 整体模型
