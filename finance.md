@@ -510,6 +510,14 @@ def predict(ppi=None,cpi=None,r007 = None):
 
 
 
+
+
+
+
+
+
+
+
 ## 拟合目标
 1.债券市场利率
 2.利率的上升斜率
