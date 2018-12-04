@@ -51,6 +51,10 @@ it is used to statistics the goods price when thy was published from relase line
 在股市中是指全部卖出买入的股票
 
 
+## [信贷周期理论](http://cj.sharesinv.com/20151120/12493/)
+
+
+
 
 
 

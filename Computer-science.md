@@ -309,6 +309,7 @@ import math
 for day in newday:                                                                                                       
     id = newday.index(day)
     r007 = newr007[id]
+    #float nan
     if math.isnan(r007):
         r007 = -1.00
     op = "update dataset set r007 ="+str(r007) + " where date = '"+str(day)+"';" 
@@ -408,7 +409,7 @@ var (
 [set header](#http://docs.python-requests.org/en/master/)
 
 
-
+### [python from 3.7 onward,the dictionary keep origin  indert irder!](https://stackoverflow.com/questions/1867861/dictionaries-how-to-keep-keys-values-in-same-order-as-declared)
 
 
 ### return 
