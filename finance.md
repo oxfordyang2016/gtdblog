@@ -47,6 +47,11 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 
+## 清仓
+在股市中是指全部卖出买入的股票
+
+
+
 
 
 
