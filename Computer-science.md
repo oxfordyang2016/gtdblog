@@ -501,6 +501,22 @@ If you want to embed images, this is how you do it:
 use this direcotory to manage materail
 ```
 
+
+
+# golang 
+
+## how i make a gtdgolangserver
+[setting gopath](https://github.com/golang/go/wiki/SettingGOPATH)
+[many directory in gopath](https://stackoverflow.com/questions/36017724/can-i-have-multiple-gopath-directories)
+[when the go file init() to run](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
+[note](default table name is `users`)
+
+
+
+
+
+
+
 # interview
 
 ```
