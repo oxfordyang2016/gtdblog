@@ -40,7 +40,7 @@ it is used to statistics the goods price when thy was published from relase line
 
 
 ## [同比与环比](https://zh.wikipedia.org/wiki/%E7%8E%AF%E6%AF%94%E5%92%8C%E5%90%8C%E6%AF%94)
-
+同比同一时间段
 
 ## 再贷款
 中央银行向商业银行提供的贷款
