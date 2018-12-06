@@ -415,6 +415,14 @@ var (
 ### return 
 when python function weill return None when there is no anything to return22
 
+### jupyter run in macosx
+[add to path](https://github.com/jupyter/help/issues/136)
+expose to lan---jupyter-notebook   --ip 192.168.0.74  --port 8888
+
+
+
+
+
 
 
 
@@ -509,7 +517,7 @@ use this direcotory to manage materail
 [setting gopath](https://github.com/golang/go/wiki/SettingGOPATH)
 [many directory in gopath](https://stackoverflow.com/questions/36017724/can-i-have-multiple-gopath-directories)
 [when the go file init() to run](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
-[note](default table name is `users`)
+golang-fault  (default table name is `users`)
 
 
 
