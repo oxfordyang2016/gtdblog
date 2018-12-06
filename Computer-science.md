@@ -416,8 +416,14 @@ var (
 when python function weill return None when there is no anything to return22
 
 ### jupyter run in macosx
-[add to path](https://github.com/jupyter/help/issues/136)
+[add to path](https://github.com/jupyter/help/issues/136),it may not work when u restart your macosx,these is very obvios
 expose to lan---jupyter-notebook   --ip 192.168.0.74  --port 8888
+when i run in a certain directory , it will expose fixed dir to lan
+[all cells not run when u load a notebook](https://stackoverflow.com/questions/31984196/ipython-notebook-run-all-cells-on-open/38856870)
+You can run the notebook document step-by-step (one cell a time) by pressing shift + enter.
+You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
+
+
 
 
 
@@ -734,7 +740,8 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 
 
 
-
+# chrome
+[Switching back to last *used* tab on Chrome](https://superuser.com/questions/402095/switching-back-to-last-used-tab-on-chrome)
 
 
 
@@ -761,6 +768,10 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 [manage your enegy](https://hbr.org/2007/10/manage-your-energy-not-your-time?utm_campaign=harvardbiz&utm_source=twitter&utm_medium=social)
 [tech trends](https://whatsthebigdata.com/2017/01/04/a-timeline-of-future-technologies-2019-2055/)
 [tech interview](http://blog.interviewing.io/lessons-from-3000-technical-interviews/)
+
+
+
+
 
 
 
