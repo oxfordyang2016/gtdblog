@@ -748,6 +748,13 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 
 
 
+# algorithm
+[binary search tree search from tree root](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
+[binary search tree exsit no have succssor and pressor当取到树中最大或最小值时](https://visualgo.net/bn/bst)
+
+
+
 
 
 
