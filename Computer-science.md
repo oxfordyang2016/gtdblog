@@ -451,7 +451,7 @@ $ /Users/abc/anaconda/bin/python -m pip install ipykernel
 $ /Users/abc/anaconda/bin/python -m  ipykernel install
 ```
 
-#### conda install mysqldb(https://stackoverflow.com/questions/34140472/how-can-i-use-conda-to-install-mysqldb)
+#### [conda install mysqldb](https://stackoverflow.com/questions/34140472/how-can-i-use-conda-to-install-mysqldb)
 ```
 You could either fall back on pip install:
 
@@ -753,7 +753,7 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 
 [binary search tree exsit no have succssor and pressor当取到树中最大或最小值时](https://visualgo.net/bn/bst)
 
-
+[How to implement a binary search tree in Python?](https://stackoverflow.com/questions/5444394/how-to-implement-a-binary-search-tree-in-python?answertab=oldest#tab-top)
 
 
 
