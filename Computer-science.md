@@ -376,6 +376,10 @@ c.NotebookApp.disable_check_xsrf = True # allow cross-site requests
 
 # golang 
 
+
+[hash](https://play.golang.org/p/_J2YysdEqE)
+
+
 [invoke system comand](https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/)
 ### golang code
 ```golang
@@ -775,6 +779,35 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 [manage your enegy](https://hbr.org/2007/10/manage-your-energy-not-your-time?utm_campaign=harvardbiz&utm_source=twitter&utm_medium=social)
 [tech trends](https://whatsthebigdata.com/2017/01/04/a-timeline-of-future-technologies-2019-2055/)
 [tech interview](http://blog.interviewing.io/lessons-from-3000-technical-interviews/)
+
+
+
+
+
+
+# gin 
+## pasrse json 
+```golang
+
+    //---------------get body string-------------
+    //https://github.com/gin-gonic/gin/issues/1295
+     buf := make([]byte, 1024)
+        num, _ := c.Request.Body.Read(buf)
+        reqBody := string(buf[0:num])
+
+
+   //--------------using gjson to parse------------
+
+
+  //emailcookie,_:=c.Request.Cookie("email")
+  //fmt.Println(emailcookie.Value)
+  //email:=emailcookie.Value
+  coursename:= gjson.Get(reqBody, "coursename").String()
+  fmt.Println(coursename)
+  courseid := hash(coursename)
+```
+
+
 
 
 
