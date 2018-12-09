@@ -37,13 +37,39 @@ it is used to statistics the goods price when thy was published from relase line
 ## [票据](https://baike.baidu.com/item/%E7%A5%A8%E6%8D%AE)
 
 ## [挤兑](https://baike.baidu.com/item/%E9%93%B6%E8%A1%8C%E6%8C%A4%E5%85%91)
-
+## [债务人与债权人](https://baike.baidu.com/item/%E5%80%BA%E6%9D%83%E4%BA%BA%E5%80%BA%E5%8A%A1%E4%BA%BA/7490496)
 
 ## [同比与环比](https://zh.wikipedia.org/wiki/%E7%8E%AF%E6%AF%94%E5%92%8C%E5%90%8C%E6%AF%94)
 同比同一时间段
 
+
+## [多头与空头](https://wiki.mbalib.com/wiki/%E7%A9%BA%E5%A4%B4)
+多头价格看涨，空头价格看跌
+
+
+## [本币](https://baike.baidu.com/item/%E6%9C%AC%E5%B8%81)
+
+## [买方和卖方](http://blog.renren.com/share/234056891/11406948374/0)
+[买方](http://renco.github.io/careers/2015/02/22/buysidesellside/)主要是投资机构，买方主要是将各种资产转变成金融产品，像投行将百度未来的盈利能力变成股票
+
 ## 再贷款
 中央银行向商业银行提供的贷款
+
+
+## [债券市场做市商](https://baike.baidu.com/item/%E5%80%BA%E5%88%B8%E5%81%9A%E5%B8%82%E5%95%86)
+[做市商机构名单](http://www.nafmii.org.cn/zlgl/scjy/jyszz/201707/t20170712_62860.html)
+from where i stand , 做市商需要足够的资金和债券，当做市商提供一个合适的报价时，买方买卖债券
+
+
+## 基点
+Basis Point（bp）基点。用于金融方面，债券和票据利率改变量的度量单位。一个基点等于1个百分点的1%，即0.01%，因此，100个基点等于1%。
+
+
+
+
+## [敞口](https://wiki.mbalib.com/wiki/%E6%95%9E%E5%8F%A3) 
+
+
 
 
 
@@ -313,12 +339,17 @@ wehn ban get money from business or people,the central ask them to prepare some 
 
 
 # 债券市场模型
+from now on , i understand all policy in finance market   service for economy to aviod 
+the despression and help the economy to growth,and the core is the rate ,about rate all
+economy will be influenced for it . and the central bank via it to incluence it's finance  agent.in bonds' view , i think when the agent to  issue bonds ,all agents own theirs goals, for buisness ,it is to get money and hope to get more money ,for central bank ,i think it has  two goal,the first is to get money from market to control the market money ,there  may be some error.for the local govment, the goal is that it borrow more money to support the economy growth ,there are some fact, the local gov via issuing the new bonds to repay the old rate and the princial（本金).the govment and business using the income from all kinds of source to repay.about the securities traders
+,his goal is to get income ,from  where i stand , i care about the 债券回报率.the bonds market  has two class,the primary market and second market,the privious to issued the bonds and to determine the bonds price and rate ,when the underwrite(承销商) to help  them to issue the bonds ,they get corresonding parts bonds and the business to get money . after this stage,the bonds  flow into the second market，all kinds of agency in second market  can buy and sell the bonds to get return. the agent barrow money from the money supply or using the money the agent to own or both to buy the securieties,via the the rate gap to get return.i can split the idea to two category ,one is money and another is market inverst.securieties mode is to make use of the money i owned,and borrow money from bank and bank and give a interest rate to control the agencies.the agency to use the money to get return and repay the interest and principal.the way using level is a usual way in finace industry.and i need to note the 做市商 almost have no any right for actual transaction.about transaction,there are two model ,model one u can to note the ytm and bond price to buy/sell bonds(the proof is from macroeconomics)
+and u know there is a product named bonds futures. the future is about the bonds ,now i had no more idea.      
 
 
 
 
-
-
+# 债市数据
+[中国债务登记公司数据](http://www.chinabond.com.cn/)
 
 
 
@@ -591,7 +622,14 @@ def predict(ppi=None,cpi=None,r007 = None):
 (tu2)[https://blog.csdn.net/zhchs2012/article/details/80053788]
 
 
-
-
-
-
+# source
+[hn about finance](https://news.ycombinator.com/item?id=15058650)
+[hacker finance](https://www.financial-hacker.com/)
+[quntum finance](https://news.ycombinator.com/item?id=15058650)
+[quntum](http://www.nuclearphynance.com/default.aspx)
+[quntum](https://quantocracy.com/)
+[goodnewsletter1](https://www.grantspub.com/investing-ideas/index.cfm)
+[goodnewsletter2](http://www.13d.com/)
+[bonds](http://www.bondeconomics.com/)
+[bonds](https://www.bondvigilantes.com/)
+[bonds](https://acrossthecurve.com/)
