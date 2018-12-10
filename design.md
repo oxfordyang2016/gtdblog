@@ -12,14 +12,6 @@ tags:
 # 设计页面
 
 
-
-
-
-
-
-
-
-
 # 基本功能
   收费系统-微信接入
   对应院校新闻栏目
@@ -54,6 +46,93 @@ tags:
 
 #[小程序申请页面注册](https://mp.weixin.qq.com/wxopen/waregister?action=step1)
 请注册企业类型
+
+
+
+
+
+#NOTE
+1.except courseid,all items are string type!
+2.server return a int type of  courseid  
+3.chapterid and videoid should created by request
+
+## all api 
+-[x] /course create  a course
+-[x] /createvideo   create a video
+-[] /getallcourse  get all course info from server
+-[] /news          get news from server
+-[] /user          get user info
+-[] /mainpage      get mainpage info
+
+
+## create a course
+
+### application type is json
+### url
+/course
+### method
+post
+### server implemention 
+```golang
+             Courses  struct {
+                gorm.Model
+
+                Courseid      uint32 `json:"Courseid"`
+                Courseurls     string    `json:"coursesurls"`
+                Description    string     `json:"description"`
+                Teacheremail    string     `json:"Teacheremail"`
+                Coursename      string   `json:"coursename"`
+        }
+```
+### requests example
+r.post('http://localhost:8082/course',json={'coursename':'马克思主义原理','description':"this is a good course"}).text
+
+
+### response example
+{"courseid":1107522238,"message":"u have uploaded info,please come on!","status":"posted"}
+
+
+
+## create single video
+### application type is json
+### method
+post
+### server implemention
+```golang
+  videoname:= gjson.Get(reqBody, "videoame").String()
+  courseid:= gjson.Get(reqBody, "courseid").String()
+  videoid:= gjson.Get(reqBody, "videoid").String()
+  chapterid:= gjson.Get(reqBody, "chapterid").String()
+  videourl:= gjson.Get(reqBody, "videourl").String()
+```
+
+### request example
+r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning intro','courseid':255734,'videoid':'hvs','chapterid':'tre','videourl':"https://t.cn"})
+
+
+### response type is json
+
+{"message":"u have uploaded info,please come on!","status":"posted","videoid":"hvs"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
