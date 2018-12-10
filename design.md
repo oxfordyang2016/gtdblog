@@ -51,12 +51,13 @@ tags:
 
 
 
-#NOTE
+# API
 1.except courseid,all items are string type!
 2.server return a int type of  courseid  
 3.chapterid and videoid should created by request
 
 ## all api 
+
 - [x] /course create  a course
 - [x] /createvideo   create a video
 - [] /getallcourse  get all course info from server
