@@ -60,10 +60,10 @@ tags:
 
 - [x] /course-------create  a course
 - [x] /createvideo------create a video
-- [] /getallcourse------get all course info from server
-- [] /news-----------get news from server
-- [] /user------------get user info
-- [] /mainpage---------get mainpage info
+- [ ] /getallcourse------get all course info from server
+- [ ] /news-----------get news from server
+- [ ] /user------------get user info
+- [ ] /mainpage---------get mainpage info
 
 
 ## create a course
