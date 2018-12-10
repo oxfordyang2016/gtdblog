@@ -57,12 +57,12 @@ tags:
 3.chapterid and videoid should created by request
 
 ## all api 
--[x] /course create  a course
--[x] /createvideo   create a video
--[] /getallcourse  get all course info from server
--[] /news          get news from server
--[] /user          get user info
--[] /mainpage      get mainpage info
+- [x] /course create  a course
+- [x] /createvideo   create a video
+- [] /getallcourse  get all course info from server
+- [] /news          get news from server
+- [] /user          get user info
+- [] /mainpage      get mainpage info
 
 
 ## create a course
