@@ -435,7 +435,7 @@ You can run the whole notebook in a single step by clicking on the menu Cell -> 
 
 
 
-
+[jupyter show image](https://stackoverflow.com/questions/32370281/how-to-embed-image-or-picture-in-jupyter-notebook-either-from-a-local-machine-o)
 
 [how to run many commands in os system](https://stackoverflow.com/questions/20042205/python-call-multiple-commands)
 

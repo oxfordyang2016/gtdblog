@@ -193,6 +193,10 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 3.解决跨域问题
 
 
+12.11
+1.教师端联调完成
+2.教师端登录页面&视频传输页面设计完成
+4.数据库测试完成
 
 
 
