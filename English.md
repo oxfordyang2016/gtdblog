@@ -288,6 +288,14 @@ For me
 
 
 
+## given 
+Given a Weighted Directed Acyclic Graph (DAG) and a source vertex s in it, find the longest distances from s to all other vertices in the given graph.
+
+给定加权有向非循环图（DAG）和其中的源顶点，找到从给定图中的s到所有其他顶点的最长距离。
+还含有考虑到，如果有等解释
+
+
+
 
 
 ### tv series videos listenning

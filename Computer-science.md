@@ -83,7 +83,8 @@ hexo server
 
 
 
-
+### golang gin 
+[allow cros](https://gocn.vip/article/529)
 
 
 

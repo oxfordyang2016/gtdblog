@@ -189,7 +189,8 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 
 12.10
 1.接口文档
-
+2.教师端页面实现
+3.解决跨域问题
 
 
 
