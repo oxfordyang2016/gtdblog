@@ -198,6 +198,12 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 2.教师端登录页面&视频传输页面设计完成
 4.数据库测试完成
 
+12.12
+1.编写单个课程获取接口
+2.编写所有课程获取接口
+3.修正数据库编码问题
+4.教师端页面创建课程的结构优化
+
 
 
 
