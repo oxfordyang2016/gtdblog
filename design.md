@@ -208,3 +208,19 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 
 
 
+12.13
+1.小程序调试接口
+2.教师端调试接口
+3.服务端课程教师借口修改
+4.小程序界面推进
+
+
+
+
+
+
+
+
+
+
+
