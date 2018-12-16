@@ -213,6 +213,7 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 2.教师端调试接口
 3.服务端课程教师借口修改
 4.小程序界面推进
+5.带宽方案沟通
 
 
 

@@ -748,6 +748,21 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 # chrome
 [Switching back to last *used* tab on Chrome](https://superuser.com/questions/402095/switching-back-to-last-used-tab-on-chrome)
 
+# flask  quick start
+```python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+   return 'Hello World’
+
+if __name__ == '__main__':
+   app.run()
+```
+
+
+
 
 
 
