@@ -116,6 +116,15 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 {"message":"u have uploaded info,please come on!","status":"posted","videoid":"hvs"}
 
 
+### actions on a course
+a = {'courseid':'233',
+     'Addedvideos':[{'Videoname':u'机器学习的方法','Courseid':'1348355370','Videoid':'1','Chapterid':'1','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'},{'Videoname':u'机器学习的方法','Courseid':'1348355370','Videoid':'1','Chapterid':'1','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'}],
+    'Deletedvideos':[223,345],
+     'Updatedvideos':[{'Videoname':u'机器学习的方法','Courseid':'1348355370','Videoid':'1','Chapterid':'1','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'},{'Videoname':u'机器学习的方法','Courseid':'1348355370','Videoid':'1','Chapterid':'1','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'}]}
 
 
 
@@ -214,6 +223,23 @@ r.post('http://localhost:8082/createvideo',json={'videoname':'machine learning i
 3.服务端课程教师借口修改
 4.小程序界面推进
 5.带宽方案沟通
+
+
+
+12.15
+1.教师上传单个课程json树解析
+
+
+12.16
+1.教师端上传视频api完成
+2.小程序解析所有课程
+3.小程序解析单个课程
+4.整体联调
+
+
+
+
+
 
 
 

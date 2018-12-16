@@ -87,6 +87,7 @@ hexo server
 [allow cros](https://gocn.vip/article/529)
 
 
+### [golang interface(method sets)](http://www.golangbootcamp.com/book/interfaces)
 
 
 
@@ -334,6 +335,67 @@ https://github.com/soundcloud/lhm
 https://githubengineering.com/gh-ost-github-s-online-migration-tool-for-mysql/
 
 ```
+
+
+
+
+
+# network
+```golang
+//from now see,the client send bytes to server ,server to accept all byte to convert it to string
+    //https://github.com/gin-gonic/gin/issues/1295
+     buf := make([]byte, 1024)
+    num, _ := c.Request.Body.Read(buf)
+        //reqBody := string(buf[0:num])
+    req := buf[0:num]
+
+
+
+```
+
+
+### golang json struct unmashal
+```json
+{'courseid':'5677',
+     'addedvideos':[{'videoname':u'线性代数','courseid':'1348355370','videoid':'2','chapterid':'2','videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'},{'Videoname':u'关于svm','Courseid':'1348355370','Videoid':'1','Chapterid':'3','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'}],
+    'deletedvideos':['223','345'],
+     'updatedvideos':[{'Videoname':u'生物电子的解释','Courseid':'1348355370','Videoid':'2','Chapterid':'2','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'},{'Videoname':u'机器学习的方法','Courseid':'1348355370','Videoid':'1','Chapterid':'1','Videourl':'https://t.cn','Description':'i am ge','Chaptername':'机器学习'
+     ,'Description':'this is a joke'}]} 
+```
+
+
+```golang
+
+func Actiononvideos1(c *gin.Context) {
+
+var videos Createdvideos
+    //---------------get body string-------------
+    //https://github.com/gin-gonic/gin/issues/1295
+     buf := make([]byte, 1024)
+        num, _ := c.Request.Body.Read(buf)
+        //reqBody := string(buf[0:num])
+        req := buf[0:num]
+  
+    err := json.Unmarshal(req, &videos)
+   fmt.Println(err)
+   fmt.Println(videos.Courseid)
+   fmt.Println(videos.Addedvideos)
+   fmt.Println(videos.Deletedvideos)
+   fmt.Println(videos.Updatedvideos)}
+
+
+
+
+
+
+
+```
+
+
+
 
 
 
