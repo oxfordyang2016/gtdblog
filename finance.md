@@ -12,6 +12,11 @@ it seem like that the mearket is about which direction money to go.when we talk 
 # 常见概念
 
 
+## [单利和复利/按厘计息](https://www.zhihu.com/question/20578030)
+
+
+
+
 ## cpi - 消费物价指数
 ```
 cpi is a standard via compute the weight average of some representive  goods for society,to denote the good price
@@ -603,6 +608,7 @@ def predict(ppi=None,cpi=None,r007 = None):
  2.技术面的实时推送
  利差的代码
  3.利率互换
+ 4.主
 
 
  

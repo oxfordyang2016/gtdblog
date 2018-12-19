@@ -32,7 +32,7 @@ hexo server
 ```
 ### [hexo add image](http://jeffa.tech/adding-images-to-a-hexo-post-via-markdown/)
 
-
+### [python concatenate item to list](https://stackoverflow.com/questions/12453580/concatenate-item-in-list-to-strings)
 
 
 
@@ -222,6 +222,12 @@ ALTER TABLE `dataset` MODIFY `tenyearsreutrnrate` float  NOT NULL;
 ALTER TABLE dataset  CHANGE  tenyearsreutrnrate  tenyearsreturnrate float;
 
 
+delete a table
+drop table students;
+
+
+
+
 delete a row from mysql
 delete from dataset where date = "2020-08-04"
 
@@ -393,6 +399,10 @@ var videos Createdvideos
 
 
 ```
+
+
+### [对称加密与非对称加密]
+
 
 
 

@@ -295,6 +295,13 @@ Given a Weighted Directed Acyclic Graph (DAG) and a source vertex s in it, find 
 还含有考虑到，如果有等解释
 
 
+## 
+
+
+
+
+
+
 
 
 
@@ -311,13 +318,21 @@ Given a Weighted Directed Acyclic Graph (DAG) and a source vertex s in it, find 
 
 
 
+## rather
 
 
+used to indicate one's preference in a particular matter.
+"would you like some wine, or would you rather stick to sherry?"
+synonyms:	sooner, by preference, preferably, by choice
+"I would rather stay home"
 
 
+i wish  a good life rather the bad  
+i would rather  a good life than the bad 
+我希望过上好日子而不是坏日子
 
-
-
+Makes today seem rather sad
+让今天看起来相当悲伤
 
 
 
