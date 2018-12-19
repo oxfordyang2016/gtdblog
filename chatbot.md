@@ -162,9 +162,6 @@ nlu_md = """
 三.评价篇
 ```
 
-
-
-
 # 参考资料
 [如何动手做一个机器人](https://github.com/warmheartli/ChatBotCourse)
 
