@@ -29,6 +29,12 @@ it seem like that the mearket is about which direction money to go.when we talk 
 
 
 
+## 关于为什么要切券
+王贺提供的说法是当我们选择最新的券的时候，他的价格能反映市场上真实的信息，然后我们能更具他们做出良好的反应
+
+
+
+
 
 
 ## cpi - 消费物价指数

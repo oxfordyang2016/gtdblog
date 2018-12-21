@@ -524,6 +524,15 @@ var (
 
 ### requests library
 [set header](#http://docs.python-requests.org/en/master/)
+get cookie
+```python
+r.cookies
+r.cookies["email"]
+```
+
+
+
+
 
 
 ### [python from 3.7 onward,the dictionary keep origin  indert irder!](https://stackoverflow.com/questions/1867861/dictionaries-how-to-keep-keys-values-in-same-order-as-declared)
