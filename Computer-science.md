@@ -58,8 +58,7 @@ hexo server
 
 
 
-
-
+## [python nested dictionary](https://stackoverflow.com/questions/16333296/how-do-you-create-nested-dict-in-python)
 
 
 
@@ -85,6 +84,47 @@ hexo server
 
 ### golang gin 
 [allow cros](https://gocn.vip/article/529)
+
+
+return empty
+```golang
+ func Register(c *gin.Context) {
+
+     fmt.Println("-----------------")
+     fmt.Println(Yangming)
+     Email := c.PostForm("email")
+    
+
+     
+     count:= 0
+     db.Model(&Teachers{}).Where("email = ?", Email).Count(&count)
+     if(count >0){
+       c.JSON(http.StatusOK,  gin.H{
+            "status":  "this email had been Registered",
+            "code":901,
+        })
+       return 
+     }
+
+     Passowrd:= c.DefaultPostForm("password", "anonymous")
+     name:= c.PostForm("name")
+     fmt.Println(name)
+     description:=  c.PostForm("description")
+     //User1 := Accounts{Email: Email,Username:Username,Password:Passowrd}
+     Teacher:= Teachers{Email: Email,Teachername:name,Password:Passowrd,Description:description}
+     fmt.Println(Email,Passowrd)
+     //fmt.Println(User1)
+    // db, _ = gorm.Open("mysql", "dt_admin:dt2016@/dreamteam_db?charset=utf8&parseTime=True&loc=Local")
+     db.Save(&Teacher)
+     c.JSON(http.StatusOK,  gin.H{
+            "status":  "logined",
+            "code":200,
+        })
+  }
+
+```
+
+
 
 
 ### [golang interface(method sets)](http://www.golangbootcamp.com/book/interfaces)
