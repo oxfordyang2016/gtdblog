@@ -384,6 +384,78 @@ https://githubengineering.com/gh-ost-github-s-online-migration-tool-for-mysql/
 
 
 
+## web user system
+```golang
+ func Register(c *gin.Context) {
+
+     fmt.Println("-----------------")
+     fmt.Println(Yangming)
+     Email := c.PostForm("email")
+     Passowrd:= c.DefaultPostForm("password", "anonymous")
+     Username:= c.PostForm("username")
+     User1 := Accounts{Email: Email,Username:Username,Password:Passowrd}
+     fmt.Println(Email,Passowrd,Username)
+     fmt.Println(User1)
+    // db, _ = gorm.Open("mysql", "dt_admin:dt2016@/dreamteam_db?charset=utf8&parseTime=True&loc=Local")
+     db.Save(&User1)
+     c.HTML(http.StatusOK, "user.html", nil)
+  }
+
+
+func  Login(c *gin.Context) {
+       //cookie set
+      //store := sessions.NewCookieStore([]byte("secret"))
+      //router.Use(sessions.Sessions("mysession", store))
+        email := c.PostForm("email")
+      passowrd:= c.PostForm("password")
+      client:=c.PostForm("client")
+            fmt.Println(client)
+            //session := sessions.Default(c)
+            //session.Set("count", "yangming")
+            //session.Save()
+            fmt.Println(email,passowrd,client)
+            cookie := &http.Cookie{
+                            Name:  "username",
+                            Value: email,
+                    }
+            http.SetCookie(c.Writer, cookie)
+            cookie1 := &http.Cookie{
+                            Name:  "email",
+                            Value: email,
+                    }
+            http.SetCookie(c.Writer, cookie1)
+            cookie2 := &http.Cookie{
+                            Name:  "logintime",
+                            Value: "now-nounspecify",
+                    }
+            http.SetCookie(c.Writer, cookie2)
+            cookie3 := &http.Cookie{
+                            Name:  "client",
+                            Value: client,
+                    }
+            http.SetCookie(c.Writer, cookie3)
+                    //c.String(http.StatusOK, "0")
+            if client == "web"{
+                //https://github.com/gin-gonic/gin to redirect
+                c.Redirect(http.StatusMovedPermanently, "/inbox")
+                //c.Redirect(http.StatusMovedPermanently, "/mainboard")
+         //c.HTML(http.StatusOK, "user.html", nil)
+         }else{
+             c.JSON(http.StatusOK,  gin.H{
+            "status":  "logined",
+        })
+         }
+  }
+
+```
+
+
+
+
+
+
+
+
 
 
 # network
@@ -747,7 +819,11 @@ Tableview
 ```
  sudo scp -i     ~/Downloads/yangming.pem    ~/Desktop/teacher.jpg  root@47.100.100.141:~/ 
 ```
-
+### scp from server to localhost
+```
+scp -i ~/Downloads/yangming.pem root@47.100.100.141:~/yangming/gtdgolangserver/src/github.com/yangming/templates/review.html       ~/Desktop
+review.html
+```
 
 
 
