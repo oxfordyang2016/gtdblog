@@ -827,8 +827,20 @@ review.html
 
 
 
+## python list
+[how to modify a passed list](https://stackoverflow.com/questions/22054698/python-modifying-list-inside-a-function)
 
-db
+i believe that  a = [1,2,3,4,5]
+a[2:3] __addr__ have no any relationship
+
+
+
+
+
+
+
+
+# db
 
  a.sqlite
 
@@ -953,6 +965,14 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
    return 'Hello World’
+
+
+@app.route('/')
+def index():
+   return render_template('hello.html')
+
+
+
 
 if __name__ == '__main__':
    app.run()
