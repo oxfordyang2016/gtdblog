@@ -950,7 +950,7 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
  [前驱和后继](https://blog.csdn.net/zhaoyunfullmetal/article/details/47903319)
 
 
-
+[windows lan accessed websockets](https://blog.csdn.net/Bruce_shan/article/details/69252370)
 
 
 
@@ -978,7 +978,7 @@ if __name__ == '__main__':
    app.run()
 ```
 
-
+[flask server static file](https://github.com/oxfordyang2016/flask-help/blob/master/templates/register.html)
 
 
 
