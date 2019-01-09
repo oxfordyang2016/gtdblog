@@ -33,7 +33,7 @@ it seem like that the mearket is about which direction money to go.when we talk 
 王贺提供的说法是当我们选择最新的券的时候，他的价格能反映市场上真实的信息，然后我们能更具他们做出良好的反应
 
 
-
+# 在基于统计样本的统计下，切比雪夫不等式是一个很好计算概率的情况！黑天鹅事件是逃离统计规律的事件，我们要设计一个模型去预测黑天鹅事件
 
 
 

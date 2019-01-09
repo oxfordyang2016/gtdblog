@@ -80,6 +80,18 @@ hexo server
 
 
 
+## chrome reload website
+```
+Chrome:
+open dev chrome
+Hold down Ctrl and click the Reload button.
+Or, Hold down Ctrl and press F5.
+just open the Chrome Dev Tools by pressing F12. Once the chrome dev tools are open, just right click on the refresh button and a menu will drop down
+```
+
+
+
+
 
 
 ### golang gin 
@@ -452,6 +464,14 @@ func  Login(c *gin.Context) {
 
 
 
+# js read last item in a array
+```js
+loc_array[loc_array.length-1]
+```
+
+
+
+
 
 
 
@@ -602,7 +622,7 @@ r.cookies
 r.cookies["email"]
 ```
 
-
+[How does collections.defaultdict work?](https://stackoverflow.com/questions/5900578/how-does-collections-defaultdict-work)
 
 
 
@@ -662,7 +682,10 @@ and then conda install -c a matching package.
 ```
 
 
-
+# sql query last item
+```
+ select * from reviewofdays   order by id desc limit 1\G;
+```
 
 
 
@@ -701,6 +724,43 @@ with open('result.pdf', 'wb') as fout:
     merger.write(fout)
    
 ```
+
+
+
+# js function example
+```js
+function myFunction(a, b) {
+  return a * b;
+}
+```
+[js splice](https://code.likeagirl.io/javascript-splice-explanation-665243503d8b)
+
+console.log
+```
+console.log(event.data)
+```
+
+
+
+
+```
+b = ['2015-08-28', 3.83, 3.795, 3.83, 3.795, 0]
+(6) ["2015-08-28", 3.83, 3.795, 3.83, 3.795, 0]
+rawData[i][0]
+VM1349:1 Uncaught ReferenceError: i is not defined
+    at <anonymous>:1:9
+(anonymous) @ VM1349:1
+b[0]
+"2015-08-28"
+c = b.splice(0,1)
+["2015-08-28"]
+b
+(5) [3.83, 3.795, 3.83, 3.795, 0]
+```
+
+
+
+
 
 
 
@@ -834,6 +894,9 @@ i believe that  a = [1,2,3,4,5]
 a[2:3] __addr__ have no any relationship
 
 
+## python print
+[python dict 中文显示问题](https://blog.csdn.net/zhangchaoy/article/details/19337841)
+
 
 
 
@@ -918,6 +981,11 @@ binlog-format=row
 server_id=1
 
 [拓扑排序](https://blog.csdn.net/lisonglisonglisong/article/details/45543451)
+[拓扑排序结果不唯一](https://blog.csdn.net/Jasmine_shine/article/details/43488895)
+
+about topological sort,u need to select the source --最开始的顶点
+
+
 
 
 [set title of navigation bar](https://stackoverflow.com/questions/6154237/how-to-set-the-title-of-a-navigation-bar-programmatically)
@@ -952,6 +1020,13 @@ https://www.quora.com/Why-is-1-MB-1024-KB-instead-of-1000-KB
 
 [windows lan accessed websockets](https://blog.csdn.net/Bruce_shan/article/details/69252370)
 
+[dag shortest path](https://www.youtube.com/watch?v=TXkDpqjDMHA)
+```
+u need to know when u compute the node,the privious node may be the last seconde
+node
+```
+
+
 
 
 # chrome
@@ -980,7 +1055,8 @@ if __name__ == '__main__':
 
 [flask server static file](https://github.com/oxfordyang2016/flask-help/blob/master/templates/register.html)
 
-
+# flask
+i had find that when u are running a flask ,when u modify the  html ,it may not leads any effects in html
 
 
 
